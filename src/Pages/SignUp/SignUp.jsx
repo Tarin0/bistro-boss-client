@@ -21,7 +21,14 @@ const SignUp = () => {
                     .then(() => {
                         console.log('user profile info updated')
                         reset();
-                        
+                        Swal.fire({
+                            position: 'top-end',
+                            icon: 'success',
+                            title: 'User created successfully.',
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                        navigate('/');
 
                     })
                     .catch(error => console.log(error))
