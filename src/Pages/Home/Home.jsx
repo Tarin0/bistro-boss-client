@@ -1,6 +1,6 @@
 import Banner from "./Banner/Banner";
 import Featured from "./Featured/Featured";
-// import Category from "./Category/Category";
+import Category from "./Category/Category";
 import PopularMenu from "./PopularMenu/PopularMenu";
 import Testimonials from "./Testimonials/Testimonials";
 
@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            {/* <Category></Category> */}
+            <Category></Category>
             <PopularMenu></PopularMenu>
             <Featured></Featured>
             <Testimonials></Testimonials>
