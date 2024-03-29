@@ -7,7 +7,6 @@ import useAdmin from "../hooks/useAdmin";
 const Dashboard = () => {
     const [cart] = useCart();
 
-    // TODO: get isAdmin value from the database
     const [isAdmin] = useAdmin();
 
     return (
@@ -70,6 +69,7 @@ const Dashboard = () => {
                                         <FaList></FaList>
                                         Real Payment History</NavLink>
                                 </li>
+                                
                             </>
                     }
                     {/* shared nav links */}
